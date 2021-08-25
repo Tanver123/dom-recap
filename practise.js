@@ -71,6 +71,9 @@ const fishDetails = { fishName: 'King Hilsha', price: 9000, phone: '017175555555
 const fishNameAndAdress = { fishName, address } = fishDetails;
 console.log(fishNameAndAdress)
 
+//9
+
+
 //10
 
 function myMoney2(x, y, z = 7) {
