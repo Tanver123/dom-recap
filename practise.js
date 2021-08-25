@@ -51,5 +51,32 @@ const myTakaDouble = myTaka.map(x => x * 5);
 
 //6
 const oddNumber = myTaka.filter(x => x % 2);
-console.log(oddNumber)
+// console.log(oddNumber)
+//7 / 7.1 summury is filter are reaturn every matched element but find just return first element. from my knowladge => you can select every element with map. 
+
+const halisKing = [
+    { size: 'small Halish', price: 5000, kg: '1kg' },
+    { size: 'medium Halish', price: 5000, kg: '3kg' },
+    { size: 'big Halish', price: 15000, kg: '5kg' },
+
+]
+
+const fishPrice = halisKing.find(halisKing => halisKing.price = '5000');
+// console.log(fishPrice)
+
+//8 
+
+const fishDetails = { fishName: 'King Hilsha', price: 9000, phone: '01717555555555', address: 'Chandpur', kg: '4g' };
+
+const fishNameAndAdress = { fishName, address } = fishDetails;
+console.log(fishNameAndAdress)
+
+//10
+
+function myMoney2(x, y, z = 7) {
+    const sum = x + y + z;
+    return sum;
+}
+console.log(myMoney2(2, 5))
+
 
