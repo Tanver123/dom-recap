@@ -23,3 +23,6 @@ document.getElementById('new-friend').addEventListener('click', function () {
    `
     friendContainer.appendChild(friendDiv);
 })
+
+const stuInfo = JSON.stringify({ name: "James", roll: 3 });
+console.log(stuInfo.name);
